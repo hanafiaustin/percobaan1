@@ -1,6 +1,6 @@
 .navbar {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 .navbar img {
@@ -9,22 +9,18 @@
 }
 
 .tombol {
-  margin-left: 100px;
+  margin-right: auto;
+  margin-top: -40px;
 }
 
 .nav-link {
   margin-right: 5px;
   text-transform: uppercase;
   font-size: 15px;
-  margin-top: 40px;
 }
 
 .nama {
-  margin-left: 50px;
-  font-family: viga;
-  font-size: 25px;
-  text-transform: uppercase;
-  margin-top: 40px;
+  opacity: 0;
 }
 
 .nav-link:hover::after {
@@ -58,14 +54,14 @@
 
 .company img {
   margin-top: 20px;
-  height: 480px;
-  width: 70%;
+  height: 450px;
+  width: 80%;
 }
 
 .event-gambar img {
   margin-top: 20px;
   height: 380px;
-  width: 600px;
+  width: 400px;
 }
 
 .event-gambar h5,
@@ -75,7 +71,27 @@
 }
 
 .contact h1 {
-  margin-top: 150px;
+  margin-top: 50px;
+}
+
+.contact h3,
+.contact p,
+.contact svg {
+  color: blue;
+}
+
+.contact h3 {
+  margin-left: 60px;
+  margin-top: -40px;
+  font-weight: 600;
+}
+
+.contact-kanan {
+  margin-left: 160px;
+}
+
+.contact p {
+  margin-left: 60px;
 }
 
 .contact hr,
@@ -162,6 +178,11 @@
 }
 
 @media (min-width: 992px) {
+  .navbar {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+  }
+
   .navbar img {
     width: 200px;
     margin: auto;
@@ -176,5 +197,37 @@
     margin: auto;
     margin-top: 5px;
     margin-bottom: -8px;
+  }
+
+  .tombol {
+    margin-left: 100px;
+  }
+
+  .nama {
+    margin-left: 50px;
+    font-family: viga;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    opacity: 1;
+  }
+
+  .nav-link {
+    margin-right: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  .company img {
+    margin-top: 20px;
+    height: 480px;
+    width: 70%;
+  }
+
+  .event-gambar img {
+    margin-top: 20px;
+    height: 380px;
+    width: 600px;
   }
 }
