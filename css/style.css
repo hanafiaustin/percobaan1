@@ -94,6 +94,11 @@
   margin-left: 60px;
 }
 
+.contact-map iframe {
+  height: 380px;
+  width: 500px;
+}
+
 .contact hr,
 .social hr,
 .event hr,
