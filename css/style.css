@@ -58,9 +58,13 @@
   width: 80%;
 }
 
+.company span,
+.event-gambar span {
+  background-color: lightblue;
+}
+
 .event-gambar img {
-  margin-top: 20px;
-  height: 380px;
+  margin-bottom: 30px;
   width: 400px;
 }
 
@@ -87,7 +91,7 @@
 }
 
 .contact-kanan {
-  margin-left: 160px;
+  margin-left: 50px;
 }
 
 .contact p {
@@ -96,7 +100,8 @@
 
 .contact-map iframe {
   height: 380px;
-  width: 500px;
+  width: 420px;
+  margin-left: -70px;
 }
 
 .contact hr,
@@ -234,5 +239,15 @@
     margin-top: 20px;
     height: 380px;
     width: 600px;
+  }
+
+  .contact-kanan {
+    margin-left: 160px;
+  }
+
+  .contact-map iframe {
+    height: 380px;
+    width: 500px;
+    margin-left: auto;
   }
 }
